@@ -15,7 +15,7 @@ categories = ["asynchronous", "cryptography", "network-programming"]
 
 
 [dependencies]
-native-tls = { git = "https://github.com/alex-dukhno/rust-native-tls.git", branch = "update-dependecies" }
+native-tls = { git = "https://github.com/sfackler/rust-native-tls.git", branch = "master" }
 thiserror = "1.0.9"
 futures-util = { version = "0.3.1", features = ["io"], optional = true }
 tokio = { version = "0.2.9", default-features = false, features = ["io-util"], optional = true }
